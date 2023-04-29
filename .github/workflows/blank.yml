@@ -1,0 +1,15 @@
+name: Deployment
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: prod
+    steps:
+      - name: deploy
+        run: echo "hello"
