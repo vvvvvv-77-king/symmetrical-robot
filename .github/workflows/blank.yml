@@ -1,15 +1,13 @@
-name: Deployment
+name: test
 
 on:
-  pull_request:
   push:
     branches:
       - main
 
 jobs:
-  deployment:
+  test:
     runs-on: ubuntu-latest
-    environment: prod
     steps:
-      - name: deploy
+      - name: tttttt
         run: echo "hello"
