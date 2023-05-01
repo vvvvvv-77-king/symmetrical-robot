@@ -1,0 +1,11 @@
+name: h
+
+on:
+  merge_group:
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: h
+        run: echo "hello"
