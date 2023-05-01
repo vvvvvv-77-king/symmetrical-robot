@@ -1,4 +1,4 @@
-name: h-main
+name: h-abc
 
 on:
   merge_group:
@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: curl "parent repo"
+        run: curl "child repo"
