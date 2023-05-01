@@ -6,6 +6,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    environment:
+      name: prod
     steps:
       - name: test
         run: echo "hello"
